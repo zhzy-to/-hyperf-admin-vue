@@ -1,0 +1,69 @@
+html.dark {
+    /* 自定义深色背景颜色 */
+    --el-bg-color: #222233;
+    --el-bg-color-overlay: #222233;
+    --el-text-color-primary: #A8A9B7;
+    //--el-color-primary: #A8A9B7;
+    --el-menu-active-color: #A8A9B7 !important;
+    --el-color-primary:#3E4F87 !important;
+
+    .el-check-tag .is-checked {
+
+    }
+
+    body {
+        background-color: #2C2C43;
+    }
+
+    img,
+    .dark-img-bg {
+        filter:brightness(0.8) saturate(1.25)
+    }
+
+    div {
+        color: #A8A9B7;
+    }
+
+    .f-header {
+        @apply bg-blue-gray-900
+
+
+    }
+
+    .f-header .dropdown {
+        color: #A8A9B7;
+    }
+
+    .f-menu {
+        @apply bg-blue-gray-900
+    }
+
+    .el-tabs__item {
+        @apply bg-blue-gray-900;
+        border-left: 1px solid #2C2C43;
+    }
+
+    .el-tabs--card > .el-tabs__header .el-tabs__item {
+        border-left: 1px solid #2C2C43;
+    }
+    .zhzy-tag-list {
+        background-color: #2C2C43;
+    }
+
+    .icon-btn:hover {
+        background-color: #2C2C43;
+    }
+    .tag-btn {
+        @apply bg-blue-gray-900
+    }
+
+    .image-container {
+        background-color: #2C2C43;
+    }
+    .aside-list {
+        border-bottom: 1px solid #A8A9B7;
+    }
+    .aside-list:hover, .active {
+        background-color: #0F172A;
+    }
+}
